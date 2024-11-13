@@ -1,0 +1,55 @@
+:root {
+    --main-bg-color: #01274e;
+    --main-txt-color: white;
+    --main-padding: 15px;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.rr-revoke.rr-bottom {
+    border-radius: unset;
+    right: 0;
+    padding: 0.5em 2.5em;
+  height:35px;
+}
+
+.rr-revoke.rr-bottom.rr-animate.rr-color-override--22384595.rr-active:hover {
+    text-decoration: none;
+}
+
+.rr-window .rr-compliance a.rr-btn.rr-deny:hover {
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+a.rr-link {
+    font-size: 1.0em;
+}
