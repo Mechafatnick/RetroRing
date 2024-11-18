@@ -1,5 +1,7 @@
 SiteArray = [];
 
+loadsiteData("https://mechafatnick.github.io/RetroRing/Data/RetroRing.xml")
+
 function loadsiteData(url) {
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function() {
