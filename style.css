@@ -1,1 +1,8 @@
+body{background-color: #1b0b3d;}
+h1{font-family:michroma-reg}
+footer{display:flex;align-items: center;margin-top:50px;flex-direction: column;color:white;bottom:10px;position:fixed;width:100%}
+#maindiv{display:flex;align-items: center;margin-top:50px;flex-direction: column;color:white}
+.bodyText {font-family: michroma-reg;width:80%;font-size:24px}
+.footerText {font-family: michroma-reg;font-size:12px}
+
 @font-face {font-family: michroma-reg;src: url(https://mechafatnick.github.io/RetroRing/font/Michroma-Regular.ttf) format('truetype');}
