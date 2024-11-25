@@ -23,7 +23,7 @@ function addSites() {
 mainDiv = document.getElementById("maindiv")
 for (i = 0; i< SiteArray.length; i++) {
 siteDiv = document.createElement("div")
-siteDiv.innerHTML = '<div id="siteDiv"><a href="'+SiteArray[i].URL+'<h2 class="siteName">' + SiteArray[i].NAME +'<p class="siteDes">' + SiteArray[i].Description + '</p> </div> <p class="divider"> ---- </p>'
+siteDiv.innerHTML = '<div id="siteDiv"><a href="'+SiteArray[i].URL+'"><h2 class="siteName">' + SiteArray[i].NAME +'</h2><p class="siteDes">' + SiteArray[i].Description + '</p></a> </div> <p class="divider"> ---- </p>'
 mainDiv.appendChild(siteDiv)  
 }
 }
