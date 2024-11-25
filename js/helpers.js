@@ -19,6 +19,7 @@ function loadsiteData(url) {
 }
 
 function addSites() {
+  console.log("length: " + SiteArray.length)
 mainDiv = document.getElementById("maindiv")
 for (i = 0; i< SiteArray.length; i++) {
 siteDiv = document.createElement("div")
