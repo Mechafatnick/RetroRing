@@ -1,7 +1,7 @@
 SiteArray = [];
 
-await loadsiteData("https://mechafatnick.github.io/RetroRing/Data/RetroRing.xml")
-addSites();
+loadsiteData("https://mechafatnick.github.io/RetroRing/Data/RetroRing.xml")
+
 function loadsiteData(url) {
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function() {
@@ -12,6 +12,7 @@ function loadsiteData(url) {
       for (i = 0; i< x.length; i++) {
       SiteArray.push( {NAME: x[i].getElementsByTagName('NAME')[0].innerHTML, URL: x[i].getElementsByTagName('URL')[0].innerHTML, Description: x[i].getElementsByTagName('Description')[0].innerHTML})
       }
+      addSites();
     }
   };
   xmlhttp.open("GET", url, true);
@@ -19,7 +20,6 @@ function loadsiteData(url) {
 }
 
 function addSites() {
-while
 mainDiv = document.getElementById("maindiv")
 for (i = 0; i< SiteArray.length; i++) {
 siteDiv = document.createElement("div")
