@@ -4,5 +4,9 @@ footer{display:flex;align-items: center;margin-top:50px;flex-direction: column;c
 #maindiv{display:flex;align-items: center;margin-top:50px;flex-direction: column;color:white}
 .bodyText {font-family: michroma-reg;width:80%;font-size:24px}
 .footerText {font-family: michroma-reg;font-size:12px}
-
+.siteDiv{font-family: michroma-reg;width:80%;font-size:18px;margin-left: 10%;background-color: rgba(0, 0, 0, 0.3);padding-left: 20px;padding-bottom: 10px;padding-top: 1px;border-radius: 10px;}
+.siteDiv a{text-decoration:none;}
+.siteName{text-decoration:underline}
+a:link {color:white}
+a:visited {color: white}
 @font-face {font-family: michroma-reg;src: url(https://mechafatnick.github.io/RetroRing/font/Michroma-Regular.ttf) format('truetype');}
