@@ -4,7 +4,9 @@ rrTriangle = document.createElement("div")
 rrTriangle.innerHTML = '<div class="rr-revoke rr-bottom rr-animate rr-color-override--135587744" style="opacity: 1; z-index: 9999;" onclick="toggleVisible()">Retro Ring</div>'
 document.querySelector("body").appendChild(rrTriangle)
 rrMainDiv = document.createElement("div")
-rrMainDiv.innerHTML = '<div class="rr-window rr-banner rr-type-opt-in rr-theme-edgeless rr-bottom rr-color-override--135587744 rr-invisible" onclick="toggleVisible()"><img src="/RetroRing/RetroRingLogo.png"></img><p class="rr-font">This site is a member of Retro Ring, a group of sites who carry out original research into classic videogames</p><div style="display:flex;flex-direction:row;flex-wrap:wrap"><button class="rr-button" onclick="prevSite()">Previous</button><button class="rr-button" onclick="randSite()">Random</button><button class="rr-button" onclick="openHome()">List</button><button class="rr-button" onclick="nextSite()">Next</button></div></div>'
+rrMainDiv.innerHTML = '<img src="/RetroRing/RetroRingLogo.png"></img><p class="rr-font">This site is a member of Retro Ring, a group of sites who carry out original research into classic videogames</p><div style="display:flex;flex-direction:row;flex-wrap:wrap"><button class="rr-button" onclick="prevSite()">Previous</button><button class="rr-button" onclick="randSite()">Random</button><button class="rr-button" onclick="openHome()">List</button><button class="rr-button" onclick="nextSite()">Next</button></div>'
+rrMainDiv.classList.add('rr-window', 'rr-banner', 'rr-type-opt-in', 'rr-theme-edgeless', 'rr-bottom', 'rr-color-override--135587744', 'rr-invisible'); 
+rrMainDiv.onclick = function() { toggleVisible() };
 document.querySelector("body").appendChild(rrMainDiv)
 
 rrTriangle = document.getElementsByClassName("rr-revoke")[0]
